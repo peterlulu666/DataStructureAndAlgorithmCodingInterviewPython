@@ -48,6 +48,7 @@ def duplicate_element():
         if array_one_item not in letter_dict:
             letter_dict[array_one_item] = True
     for array_two_item in array_two:
+        # Check key in dictionary
         if array_two_item in letter_dict.keys():
             is_duplicate = True
     if is_duplicate:
